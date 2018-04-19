@@ -1,0 +1,74 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Sistema de Registro</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+							<!--Library CSS-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="dist/sweetalert.css">
+        
+    </head>
+    <body id="bgBody">  
+<div class="container">
+    <div class="row">
+        <div class="bloquote">Sistema de Registro</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 col-sm-offset-4">
+            <br><br>
+            <form action="" id="actForm" class="form" method="POST">
+                 <label for="nameUser" >Nombre:</label>
+                 <br>
+                 <input type="text" id="userName" class="form-control" placeholder="ingresa tu nombre">
+                 <br>
+                 <label for="userEmail" >Correo:</label>
+                 <br>
+                 <input type="text" id="emailUser" class="form-control" placeholder="example@example.com">
+                 <br>
+                 <label>Contraseña:</label>
+                 <input type="password" id="userPass" class="form-control" placeholder="Contraseña">
+                 <br>
+                 <label for="userTelephone">Número de cuenta bancaria</label>
+                 <br>
+                 <input type="text" id="cuentaBanc" class="form-control" placeholder="Ingresa tu número celular">
+                 <br>    
+                 <br>
+                 <select name="typeUser" id="typeUser" class="form-control">
+                     <option value="emprendedor">Emprendedor</option>
+                     <option value="inversionista">Inversionista</option>
+                 </select>
+                 <br>
+                 <button class="btn btn-primary btn-block" onclick="registraUsuario()">Registrar</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+      
+     
+        <!--Codigo de firebase--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-storage.js"> </script>
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/initializer.js"></script>
+    <script src="dist/sweetalert.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    </body>
+</html>

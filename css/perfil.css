@@ -1,0 +1,83 @@
+#bgBody{
+	background-image: url("../img/fondoBlanco.jpg"); 
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+ 	color: #0b0202;
+ }    
+
+.areaMostrar{
+            background-color:rgba(124,41,23,0.4);
+            color : #ffffff;
+            padding : 4px;
+            width: 100%;
+            height: 450px;
+            overflow : auto; 
+}
+#descProducto{
+	width: 100%;
+	height: 50px;
+	resize: none;
+}
+
+.textChat{
+	color:orange;
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+.imgLogo{
+    width: 221px;
+    height: 47px;
+}
+
+.bodyText{
+	color: white;
+}
+
+.colorNaranja{
+	background: orange;
+}
+
+.imgChat{
+	width: 100px;
+	height: 100px;
+}
+
+
+input[type="radio"] {
+  display: none;
+}
+
+.labelStart {
+	font-size: 28px;
+ 	color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.labelStart:hover,
+.labelStart:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+
+@media (max-width: 660px){
+	#bgBody{
+		background-image: url("../img/Fondo.png"); 
+		background-repeat: no-repeat;
+	}
+	.imgChat{
+		width: 60px;
+		height: 60px;
+	}
+}

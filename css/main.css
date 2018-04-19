@@ -1,0 +1,104 @@
+ #map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
+
+
+#bgBody{
+	background-image: url("../img/fondoBlanco.jpg"); 
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+
+.logoEmpresa{
+	width: 100%;
+}
+
+.iti-flag {background-image: url("img/flags.png");}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .iti-flag {background-image: url("img/flags@2x.png");}
+}
+
+
+.navbarRightIcons{
+	margin-top: -14px;
+	padding-top: 6px;
+}
+
+.navbarRightText{
+	margin-top: 15px;
+	color: white;
+}
+
+.imgLogo{
+    width: 221px;
+    height: 47px;
+}
+
+.mainMenu{
+	float: static;
+}
+
+.bodyText{
+	color: black;
+}
+
+.colorNaranja{
+	background: orange;
+}
+
+.btn-registra{
+	margin-top: -13px;
+}
+
+.btn-regresa{
+	margin-top: -13px;
+	margin-left: 20px; 
+}
+
+.informacionGeneral{
+	background-color: #E83D18;
+}
+
+#userRol{
+	color: black;
+}
+
+.formText{
+	color: black;
+}
+
+#phone{
+	width:  175%;
+}
+
+.btn{
+	border-radius: 20px;
+}
+
+.btn:hover {
+	background-color: #f6921e;
+	color:white;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+@media (max-width: 700px) {
+	.occultableMedium{
+		display: none;
+	}
+}
+
+@media (max-width: 660px){
+	#bgBody{
+		background-image: url("../img/Fondo.png"); 
+		background-repeat: no-repeat;
+	}
+}

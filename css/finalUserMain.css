@@ -1,0 +1,145 @@
+#bgBody{
+	background-image: url("../img/fondoBlanco.jpg"); 
+	font-weight: bold;
+}
+
+#descripcionProblema{
+    min-height: 40px;
+    height: 40px;
+    resize: vertical;
+    background-color: rgba(124,41,23,0.8);
+    color: white;
+    max-height: 100px;
+}
+
+.bodyText{
+	color: white;
+}
+
+.colorNaranja{
+	background: orange;
+}
+
+.imgLogo{
+    width: 221px;
+    height: 47px;
+}
+
+.btn_search{
+    height: 20.4px;
+    margin-top: -15px;
+}
+
+.btn:hover {
+    background-color: #f6921e;
+    color:white;
+}
+
+.jumbotron{
+	background-color: rgba(124,41,23,0.7);
+	color: white;
+}
+
+.photoPerfilStyle{
+	width: 150px;
+	height: 150px;
+}
+
+.namePerfilStyle{
+	font-size: 25px;
+}
+.infoPerfilStyle    {
+	font-size: 15px;
+}
+
+.contenedorPhoto{
+	margin-bottom: -60px;
+	margin-top: -30px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+	font-size: 24px;
+ 	color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+@media (max-width: 768px) {
+    .ocultar{
+        display: none;
+    }
+	.contenedorPhoto{
+		margin-bottom: -70px;
+		margin-top: 10px;
+	}
+	.namePerfilStyle{
+		font-size: 15px;
+	}
+	.infoPerfilStyle{
+		font-size: 13px;
+	}
+
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background-color: rgba(124,41,23,0.4);
+    outline: none;
+    opacity: .4;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: .8;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 660px){
+	#bgBody{
+		background-image: url("../img/Fondo.png"); 
+		background-repeat: repeat-y;
+	}
+}
