@@ -18,9 +18,31 @@
         
     </head>
     <body id="bgBody">  
-<div class="container">
+<div class="container" id="logInUser">
     <div class="row">
         <div class="bloquote">Sistema de Registro</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 col-sm-offset-4">
+            <br><br>
+                 <label for="userEmail" >Correo:</label>
+                 <br>
+                 <input type="email" id="emailUser" class="form-control" placeholder="example@example.com">
+                 <br>
+                 <label>Contraseña:</label>
+                 <input type="password" id="userPass" class="form-control" placeholder="Contraseña">
+                 <br>
+                 <button type= "button" class="btn btn-primary btn-block" onClick="iniciarSesion()"> Iniciar sesión </button>
+                 <br>
+                 <button type= "button" class="btn btn-primary btn-block" onClick="vistaRegistraUsuario()"> Registrar Usuario </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="formUser" style="display: none;">
+    <div class="row">
+        <div class="bloquote">Registrar Usuario</div>
     </div>
     <div class="row">
         <div class="col-sm-4 col-sm-offset-4">
@@ -32,12 +54,15 @@
                  <br>
                  <label for="userEmail" >Correo:</label>
                  <br>
-                 <input type="text" id="emailUser" class="form-control" placeholder="example@example.com">
+                 <input type="email" id="userEmail" class="form-control" placeholder="example@example.com">
                  <br>
                  <label>Contraseña:</label>
                  <input type="password" id="userPass" class="form-control" placeholder="Contraseña">
                  <br>
-                 <label for="userTelephone">Número de cuenta bancaria</label>
+                 <label>Telefono:</label>
+                 <input type="tel" id="userPhone" class="form-control" placeholder="Telefono">
+                 <br>
+                 <label for="cuentaBanc">Número de cuenta bancaria</label>
                  <br>
                  <input type="text" id="cuentaBanc" class="form-control" placeholder="Ingresa tu número celular">
                  <br>    
@@ -48,12 +73,12 @@
                  </select>
                  <br>
                  <button class="btn btn-primary btn-block" onclick="registraUsuario()">Registrar</button>
+                 <br>
+                 <button type= "button" class="btn btn-primary btn-block" onClick="atras()"> Registra </button>
             </form>
         </div>
     </div>
-</div>
-
-      
+</div>  
      
         <!--Codigo de firebase--> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
