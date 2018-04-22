@@ -1,4 +1,4 @@
-![banner](./github/banner.PNG)
+![banner](./.github/banner.PNG)
 
  Plataforma Fintech (deriva de las palabras “finance technology”) para ofrecer el servicio de Crowdfunding (financiamiento de proyectos) con el objetivo de recaudar fondos para iniciativas desarrolladas por alumnos y profesores de la UNAM.
 
@@ -6,7 +6,7 @@
 Antes de empezar con este repositorio es necesario que tengas ciertos programas, módulos y configraciones instalados en la computadora que vas utilizar. Para ver cómo hacer la instalacion de tu ambiente de desarrollo es necesario que sigas los pasos descritos en  el capitulo _".4 Empezando - Instalando Git"_ del siguiente [documento de instalación](https://git-scm.com/book/es/v1/Empezando-Instalando-Git).
 
 1. Git
-2. Cuenta de GitHub [:octocat:]
+2. Cuenta de GitHub :octocat:
 3. Llave Privada de Firebase
 4. Algun editor de Texto. 
 
