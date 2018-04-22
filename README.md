@@ -8,11 +8,7 @@ Antes de empezar con este repositorio es necesario que tengas ciertos programas,
 1. Git
 2. Cuenta de GitHub [:octocat:]
 3. Llave Privada de Firebase
-4. Algun editor de Texto.
-
-
-## Uso
-Para usar este repositorio es recomendable que lo clones y ejecutes cada uno de los Jupyter Notebook en tu computadora. Esto te permitirá ver como es que el algoritmo va funcionando paso a paso. También es recomendable que pruebes como con distintas imagenes se generan distintos resultados. 
+4. Algun editor de Texto. 
 
 ## Cómo Contribuir
 ¿Nos hace falta algo?¿Hay algún error? Si notas que hay algún error en el repositorio puedes crear un ISSUE nuevo para que lo corrijamos o mejor aún ayudarnos con un PULL REQUEST :tada:. Si es la primera vez que contribuyes a un proyecto no dudes en hacernos preguntas sobre como contribuir.
