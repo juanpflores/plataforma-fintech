@@ -27,8 +27,5 @@ Para usar este repositorio es recomendable que lo clones y ejecutes cada uno de 
 ## Historia
 TODO: Write history
 
-## Créditos
-- Juan Pablo Flores [:octocat:](github.com/juanpflores)
-
 ## Licencia
 Este proyecto cuenta con una Licencia GNU GENERAL PUBLIC LICENSE. Puedes revisar los detalles de la licencia en este [documento](LICENSE).
