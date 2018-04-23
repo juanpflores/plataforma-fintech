@@ -19,9 +19,5 @@ Antes de empezar con este repositorio es necesario que tengas ciertos programas,
 4. Sube tu rama a tu fork: `git push origin my-new-feature`
 5. ¡Crea un Pull Request y listo! :octocat:
 
-
-## Historia
-TODO: Write history
-
 ## Licencia
 Este proyecto cuenta con una Licencia GNU GENERAL PUBLIC LICENSE. Puedes revisar los detalles de la licencia en este [documento](LICENSE).
